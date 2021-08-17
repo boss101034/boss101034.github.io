@@ -148,6 +148,16 @@ body {
     font-weight: bold;
     width: 60px;
 }
+#links {
+    padding: 16px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+#links a {
+    color: #000000;
+    text-shadow: 1px 1px 2px #C0C0C0;
+}
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
     -webkit-appearance: none; 
