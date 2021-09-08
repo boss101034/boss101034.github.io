@@ -168,17 +168,15 @@ a {
     font-size: 18px;
 }
 #pools table {
+    border-top: 1px solid black;
     text-align: center;
     border-spacing: 8px;
-    margin: auto;
+    margin: 12px auto 0px auto;
 }
 #pools td {
-    border: 1px solid black;
-    border-radius: 4px;
     padding: 4px 8px 4px 8px;
     font-size: 14px;
     line-height: 1.5;
-    background: linear-gradient(to bottom right, #FFFFFF, #F0F0F0);
 }
 #pools a {
     font-size: 18px;
