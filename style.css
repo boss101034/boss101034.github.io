@@ -76,7 +76,7 @@ body {
     padding: 4px 64px 4px 64px;
     margin: 0px 16px 8px 16px;
 }
-.link a {
+a {
   color: #000000;
 }
 #choose {
@@ -120,6 +120,7 @@ body {
     cursor: pointer;
 }
 .menuentry {
+    background-color: white;
     text-align: center;
     width: fit-content;
     box-shadow: 4px 4px 8px 0px #808080;
@@ -159,6 +160,29 @@ body {
     font-size: 24px;
     font-weight: bold;
     width: 60px;
+}
+#free {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #C0C0C0;
+    text-align: center;
+    font-size: 18px;
+}
+#pools table {
+    text-align: center;
+    border-spacing: 8px;
+    margin: auto;
+}
+#pools td {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px 8px 4px 8px;
+    font-size: 14px;
+    line-height: 1.5;
+    background: linear-gradient(to bottom right, #FFFFFF, #F0F0F0);
+}
+#pools a {
+    font-size: 18px;
+    text-shadow: 1px 1px 2px #C0C0C0;
 }
 #links {
     padding: 16px;
